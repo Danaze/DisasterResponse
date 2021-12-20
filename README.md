@@ -43,4 +43,4 @@ This project has the following parts:
 
 ![alt text](images/prediction_capture.png "sample prediction output")
 
-
+* The codes are availabe in this [repository](https://github.com/Danaze/DisasterResponse).
