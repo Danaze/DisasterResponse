@@ -41,6 +41,6 @@ This project has the following parts:
 
 2. To classify a message, type the message and click **Classify Message**, we can see the categories which the message belongs in green highlights.
 
-![alt text](images/prediction_capture.pdf "sample prediction output")
+![alt text](images/prediction_capture.png "sample prediction output")
 
 
