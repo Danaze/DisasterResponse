@@ -37,10 +37,10 @@ This project has the following parts:
 ## Screenshots
 
 1. This is an example of a dashbord that shows a bargraph for the distribution of message categories
-
-![Sample Input](images/message_categories_bar_graph.png)
+![alt text](images/Message_categories_bar_graph.png "Message categories bar graph")
 
 2. To classify a message, type the message and click **Classify Message**, we can see the categories which the message belongs in green highlights.
 
-![Sample Output](images/prediction_capture.pdf)
+![alt text](images/prediction_capture.pdf "sample prediction output")
+
 
