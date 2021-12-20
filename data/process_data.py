@@ -41,6 +41,7 @@ def clean_data(df):
         categories[column] = categories[column].str[-1]
         # convert column from string to numeric
         categories[column] = pd.to_numeric(categories[column])
+        categories[column] = (categories[column] > 0).astype(int)
     # drop the original categories column
     df = df.drop(['categories'], axis=1)
     # concatenate the df with categories dataframe created above
@@ -53,7 +54,7 @@ def save_data(df, database_filename):
     A funciton for saving the cleaned dataframe into a database with name given as a parameter.
     '''
     engine = create_engine('sqlite:///' + database_filename)
-    df.to_sql('Messages', engine, index=False)
+    df.to_sql('Messages', engine, if_exists='replace', index=False)
 
 
 def main():
